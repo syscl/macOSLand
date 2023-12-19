@@ -7,3 +7,8 @@ The reason remains unknown yet, but a reboot or the following will work for me
 ```sh
 sudo killall coreaudiod
 ```
+
+# tree commandline to display file structure
+```sh
+brew install tree
+```
