@@ -12,3 +12,6 @@ sudo killall coreaudiod
 ```sh
 brew install tree
 ```
+
+# Display DDC for external monitors
+- [BetterDisplay](https://github.com/waydabber/BetterDisplay)
