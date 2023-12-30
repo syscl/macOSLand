@@ -13,5 +13,8 @@ sudo killall coreaudiod
 brew install tree
 ```
 
+# Keyboard and mouse event modify
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) The killer software for modifying both keyboard and mouse event. I used to use `unnaturalscrollwheels` to reverse mouse scrolling, but on macOS Sonoma 14.2.1, it sometimes refused to launch. Since I also use Karbiner for keyboard event remap, I just found the karabiner supports modify mouse event as well. Just open `Karabiner-Elements` > `Devices` > [Your mouse] > `Modify events` > `Flip mouse vertical wheel`. And works flawsless.
+
 # Display DDC for external monitors
 - [BetterDisplay](https://github.com/waydabber/BetterDisplay)
