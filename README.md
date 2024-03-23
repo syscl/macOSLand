@@ -23,3 +23,6 @@ brew install tree
 - [BetterDisplay](https://github.com/waydabber/BetterDisplay), pro version is recommended
 - This is particularly useful for 34" 3440x1440 display.
 - Also enable keybaord brightness control so that keyboard shortcut can control all monitors' brightness
+
+# MTP support
+For connecting to devices using [MTP protocol](https://en.wikipedia.org/wiki/Media_Transfer_Protocol) (e.g. Android, and new Kindle Scribe), you need to use either [Android File Transfer](https://www.android.com/filetransfer/) or [OpenMTP](https://github.com/ganeshrvel/openmtp).
