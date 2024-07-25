@@ -23,8 +23,9 @@ brew install tree
 To run ARM Linux/Windows 'natively' on Apple Silicon, use [UTM](https://mac.getutm.app/)
 
 # Display HiDPI & DDC for external monitors
-- [BetterDisplay](https://github.com/waydabber/BetterDisplay), pro version is recommended
-- This is particularly useful for 34" 3440x1440 display.
+- [Lunar](https://lunar.fyi/) for scale resolution, on MacBookPro 16" XDR (2177x1407 hidpi). This increases 26% screen content. It is open source.
+~~- [BetterDisplay](https://github.com/waydabber/BetterDisplay), pro version is recommended
+- This is particularly useful for 34" 3440x1440 display.~~
 - Also enable keybaord brightness control so that keyboard shortcut can control all monitors' brightness
 
 # MTP support
