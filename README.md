@@ -14,7 +14,7 @@ brew install tree
 ```
 
 # Keyboard and mouse event modify
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) The killer software for modifying both keyboard and mouse event. I used to use `unnaturalscrollwheels` to reverse mouse scrolling, but on macOS Sonoma 14.2.1, it sometimes refused to launch. Since I also use Karbiner for keyboard event remap, I just found the karabiner supports modify mouse event as well. Just open `Karabiner-Elements` > `Devices` > [Your mouse] > `Modify events` > `Flip mouse vertical wheel`. And works flawsless.
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) The killer software for modifying both keyboard and mouse event. I used to use `unnaturalscrollwheels` to reverse mouse scrolling, but on macOS Sonoma 14.2.1, it sometimes refused to launch. Since I also use Karbiner for keyboard event remap, I just found the karabiner supports modify mouse event as well. Just open `Karabiner-Elements` > `Devices` > [Your mouse] > `Modify events` > `Flip mouse vertical wheel`. (Note Karabiner reverse mouse will cause some weird mouse behavior).
 - For K380 remap:
     - Remap F7: this is lock screen application launch (consumer/keycode: `al_terminal_lock_or_screensaver`). No option for it. To remap this key you can either: 1. selecting the `Media controls` > `Touch ID on Magic Keyboard` or 2. make a SimpleModification. More detail can be found [here](https://github.com/pqrs-org/Karabiner-Elements/issues/3408)
 
