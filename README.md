@@ -56,3 +56,8 @@ Once downloaded, symlink it to the cli-plugins folder:
 ln -sfn $(brew --prefix)/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugins/docker-buildx
 ```
 More detail can be found [here](https://smallsharpsoftwaretools.com/tutorials/use-colima-to-run-docker-containers-on-macos/)
+
+
+# Safari AdBlock Plugin
+I tried with many popular plugins, however most of them does not work on some websites, `DLPanda` is one example that keeps pop up or just throw warning of using adblockers.
+ But `AdBlock Pro for Safari` works on iPhone.
