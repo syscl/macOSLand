@@ -63,6 +63,90 @@ I tried with many popular plugins, however most of them does not work on some we
  But `AdBlock Pro for Safari` works on iPhone.
 
 # Enable more powerful mouse support
-- Natural middle button (M4,M5) support, this is ususally useful for macOS native app like Safari back/forward. It is called [sensible-side-buttons
-](https://github.com/archagon/sensible-side-buttons), the project got updated (support for Apple Sillicon) in this [fork](https://github.com/thealpa/SaneSideButtons)
+- Natural middle button (M4,M5, M6-Evoluent) support, this is ususally useful for macOS native app like Safari back/forward. It is called [sensible-side-buttons
+](https://github.com/archagon/sensible-side-buttons), the project got updated (support for Apple Sillicon) in this [fork](https://github.com/thealpa/SaneSideButtons).
+Note: this may affects the vscode back and forward. To fix this we can use Karabinet Elements>Complex Modifications>
+```
+{
+    "description": "Change button4,6 to back,forward (rev 1)",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "keyboard_types": ["ansi", "iso"],
+                    "type": "keyboard_type_if"
+                }
+            ],
+            "from": {
+                "modifiers": { "optional": ["caps_lock"] },
+                "pointing_button": "button4"
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket",
+                    "modifiers": "left_command"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "keyboard_types": ["jis"],
+                    "type": "keyboard_type_if"
+                }
+            ],
+            "from": {
+                "modifiers": { "optional": ["caps_lock"] },
+                "pointing_button": "button4"
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": "left_command"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "keyboard_types": ["ansi", "iso"],
+                    "type": "keyboard_type_if"
+                }
+            ],
+            "from": {
+                "modifiers": { "optional": ["caps_lock"] },
+                "pointing_button": "button6"
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": "left_command"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "keyboard_types": ["jis"],
+                    "type": "keyboard_type_if"
+                }
+            ],
+            "from": {
+                "modifiers": { "optional": ["caps_lock"] },
+                "pointing_button": "button5"
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": "left_command"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
 - Buttersmooth scrolling and disable natural scroll on mouse via [mos](https://github.com/Caldis/Mos)
