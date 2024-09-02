@@ -65,6 +65,7 @@ I tried with many popular plugins, however most of them does not work on some we
 # Enable more powerful mouse support
 - Natural middle button (M4,M5, M6-Evoluent) support, this is ususally useful for macOS native app like Safari back/forward. It is called [sensible-side-buttons
 ](https://github.com/archagon/sensible-side-buttons), the project got updated (support for Apple Sillicon) in this [fork](https://github.com/thealpa/SaneSideButtons).
-Note: this may affects the vscode back and forward. To fix this we can use Karabinet Elements>Complex Modifications>import `Change mouse buttons (rev2)`. You may notice that the middle button M6 is not wokring, just go to simple modification and remap `Mouse button6` to `Mouse button5`.
+Note: this may affects the vscode back and forward.
+Note: Karabinet modify mouse event will cause some weird behavior.~~To fix this we can use Karabinet Elements>Complex Modifications>import `Change mouse buttons (rev2)`. You may notice that the middle button M6 is not wokring, just go to simple modification and remap `Mouse button6` to `Mouse button5`.~~
 This is a comprehensive article to read. [link](https://appflix.cc/mapping-the-mouse-backward-button-in-karabiner-for-mac/)
 - Buttersmooth scrolling and disable natural scroll on mouse via [mos](https://github.com/Caldis/Mos)
