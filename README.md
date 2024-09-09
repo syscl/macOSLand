@@ -20,7 +20,7 @@ brew install tree
 
 
 - Apple Sillicon Virtualization (UTM)
-To run ARM Linux/Windows 'natively' on Apple Silicon, use [UTM](https://mac.getutm.app/)
+To run ARM Linux/Windows 'natively' on Apple Silicon, use [UTM](https://mac.getutm.app/), manjaro failed to start for some reason
 
 # Display HiDPI & DDC for external monitors
 - [Lunar](https://lunar.fyi/) for scale resolution, on MacBookPro 16" XDR (2177x1407 hidpi), I used 2557x1653 this days too. This increases 26% screen content. It is open source.
