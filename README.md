@@ -69,3 +69,5 @@ Note: this may affects the vscode back and forward.
 Note: Karabinet modify mouse event will cause some weird behavior.~~To fix this we can use Karabinet Elements>Complex Modifications>import `Change mouse buttons (rev2)`. You may notice that the middle button M6 is not wokring, just go to simple modification and remap `Mouse button6` to `Mouse button5`.~~
 This is a comprehensive article to read. [link](https://appflix.cc/mapping-the-mouse-backward-button-in-karabiner-for-mac/)
 - Buttersmooth scrolling and disable natural scroll on mouse via [mos](https://github.com/Caldis/Mos)
+
+- Chromium for less tracking?
