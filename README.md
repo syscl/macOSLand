@@ -1,5 +1,5 @@
 # macOSLand
-A utility and trips about improving usability of macOS
+A utility and tips about improving usability of macOS
 
 # No sound after waking from sleep
 This happens on my Apple Sillicon MacBookPro, the headphone no sound after waking from sleep.
