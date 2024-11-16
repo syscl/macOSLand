@@ -59,8 +59,7 @@ More detail can be found [here](https://smallsharpsoftwaretools.com/tutorials/us
 
 
 # Safari AdBlock Plugin
-I tried with many popular plugins, however most of them does not work on some websites, `DLPanda` is one example that keeps pop up or just throw warning of using adblockers.
- But `AdBlock Pro for Safari` works on iPhone.
+I tried with many popular plugins, however most of them does not work on some websites, `DLPanda` is one example that keeps pop up or just throw warning of using adblockers. But `AdBlock Pro for Safari` works on iPhone.
 
 # Enable more powerful mouse support
 - Natural middle button (M4, M5, M6-Evoluent) support, this is ususally useful for macOS native app like Safari back/forward. It is called [sensible-side-buttons
