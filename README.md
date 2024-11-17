@@ -33,7 +33,7 @@ For connecting to devices using [MTP protocol](https://en.wikipedia.org/wiki/Med
 
 
 # Docker without Docker Desktop app
-Docker and docker desktop are always garbage. Desktop crashes every day/few days and stuck. An alternative solution maybe using (Rancher or Podman). Due to time constraint, let's just use colima:
+Docker and docker desktop are garbage. Desktop crashes every day/few days and stuck. An alternative solution maybe using (Rancher or Podman). Due to time constraint, let's just use colima:
 Install colima first: `brew install colima`
 Once Colima installs, install Docker and Docker Compose.
 ```
