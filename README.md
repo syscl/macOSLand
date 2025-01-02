@@ -31,7 +31,7 @@ To run ARM Linux/Windows 'natively' on Apple Silicon, use [UTM](https://mac.getu
 # MTP support
 For connecting to devices using [MTP protocol](https://en.wikipedia.org/wiki/Media_Transfer_Protocol) (e.g. Android, and new Kindle Scribe), you need to use either [Android File Transfer](https://www.android.com/filetransfer/) or [OpenMTP](https://github.com/ganeshrvel/openmtp).
 
-# Docker without Docker Desktop app
+# Docker without Docker Desktop
 Docker and docker desktop are garbage. Desktop crashes every day/few days and stuck. An alternative solution maybe using (Rancher or Podman). Due to time constraint, let's just use colima:
 Install colima first: `brew install colima`
 Once Colima installs, install Docker and Docker Compose.
