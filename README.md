@@ -57,6 +57,7 @@ ln -sfn $(brew --prefix)/opt/docker-buildx/bin/docker-buildx ~/.docker/cli-plugi
 More detail can be found [here](https://smallsharpsoftwaretools.com/tutorials/use-colima-to-run-docker-containers-on-macos/)
 
 # Hide extra icons on status menu
+[Ice](https://github.com/jordanbaird/Ice) Actively develop and more feature hidden menu
 [Hidden Bar](https://github.com/dwarvesf/hidden) hides many of the necessary icon, highly recommended.
 
 # Safari AdBlock Plugin
