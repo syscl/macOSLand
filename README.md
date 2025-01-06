@@ -78,5 +78,5 @@ It is tricky to build a recoveryable drive for old mac especially if you are on 
 1. Download the dmg
 2. Extract the pkg that contains the InstallESD.dmg (usually unzip like app will do the trick)
 3. `sudo /usr/sbin/asr restore --source /Volumes/OS\ X\ Install\ ESD/BaseSystem.dmg  --target /Volumes/<your_usb_drive> --erase`
-4. Delete the `/S/L/Packages` link, copy the base image's complete package
+4. Delete the `/S*/L*/Packages` link, copy the base image's complete package
 5. Copy baseimage and etc. to the drive that you just restored
