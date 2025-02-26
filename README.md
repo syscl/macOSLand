@@ -80,3 +80,6 @@ It is tricky to build a recoveryable drive for old mac especially if you are on 
 3. `sudo /usr/sbin/asr restore --source /Volumes/OS\ X\ Install\ ESD/BaseSystem.dmg  --target /Volumes/<your_usb_drive> --erase`
 4. Delete the `/S*/L*/Packages` link, copy the base image's complete package
 5. Copy baseimage and etc. to the drive that you just restored
+
+## Stop the 'Turn On Reactions' popup from appearing everytime on macOS 15.x
+Solution: when you see the popup appear, toggle the reactions on, then off, then restart your computer.
