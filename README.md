@@ -1,6 +1,9 @@
 # macOSLand
 A utility and tips about improving usability of macOS
 
+# Tahoe dock does not show up (still happens on 26.5.2)
+This is a clear bug in macOS, reason remains unknown. To fix it, the most effective way is run `killall Dock` in terminal.
+
 # No sound after waking from sleep
 This happens on my Apple Sillicon MacBookPro, the headphone no sound after waking from sleep.
 The reason remains unknown, but a reboot or the following will work for me
